@@ -207,6 +207,8 @@ a.menu-toggle-btn {
 	position: relative;
 	background: url(../images/templatemo_teamhexa.png) no-repeat;
 	margin-bottom: 10px;
+	display:block;
+	left:60px;
 }
 .smallhexagon:before {
 	position: absolute;
@@ -217,8 +219,8 @@ a.menu-toggle-btn {
 }
 .smallhexagon:after {
 	content: "";
-	position: absolute;
-	left: 0;
+	position: relative;
+	left: 60px;
 	width: 0;
 	height: 46px;
 }
